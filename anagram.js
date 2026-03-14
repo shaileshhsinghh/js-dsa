@@ -12,5 +12,3 @@ function isanagram(str1, str2){
 
     return true;
 }
-console.log(isanagram("openai" , "aiopen"));
-console.log(isanagram("listen is","silent is"));
