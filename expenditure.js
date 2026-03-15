@@ -14,10 +14,4 @@ function checkexpenditure(trans){
     return result;
 }
 
-const transactions = [
- {id:1, price:10, category:"Food"},
- {id:2, price:20, category:"Travel"},
- {id:3, price:15, category:"Food"}
-];
-
-console.log(checkexpenditure(transactions));
+module.exports = checkexpenditure;

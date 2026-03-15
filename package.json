@@ -19,5 +19,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "node": "^25.8.1"
   }
 }
