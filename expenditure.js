@@ -8,7 +8,7 @@ function checkexpenditure(trans){
 
     let result = Object.keys(bill).map(category => ({
         category,
-        totalspent : bill[category]
+        totalSpent : bill[category]
     }));
 
     return result;
