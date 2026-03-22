@@ -8,3 +8,5 @@ function gcd(a , b){
 }
 
 console.log(gcd(12,4));
+
+module.exports = gcd;
