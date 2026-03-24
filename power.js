@@ -2,9 +2,6 @@ function power(x,y){
     if(y === 0){
         return 1;
     }
-    else if(y === 1){
-        return x;
-    }
     else {
         let result = 1;
         while(y > 0){
@@ -15,4 +12,4 @@ function power(x,y){
     }
 }
 
-console.log(power(2,3));
+module.exports = power;
