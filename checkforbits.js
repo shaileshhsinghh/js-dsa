@@ -1,6 +1,6 @@
 function checkforbits(n){
     let count = 0;
-    for(let i = 0;i < 64;i++){
+    for(let i = 0;i < 32 ;i++){
         let result = n << i;
         if((result & n) !== 0){
             count++;
