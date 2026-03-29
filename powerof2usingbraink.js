@@ -4,3 +4,5 @@ function powerof2(n){
 }
 
 console.log(powerof2(6));
+
+//power of two always has one set bit
