@@ -5,7 +5,6 @@ function twoadd(arr){
     }
 
     let bit = xorAll & (-xorAll);
-    console.log(bit);
 
     let x = 0 , y = 0;
     for(n of arr){
